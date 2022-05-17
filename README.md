@@ -4,4 +4,4 @@ Para utilizar o Esp 32 da heltec, será necessário instalar a placa no Arduino 
 Por fim, colar o URL da placa: https://dl.espressif.com/dl/package_esp32_index.json em 
 "arquivo " -> "preferências" -> "URLs adicionais para gerenciadores de placa". 
 Após isso, selecionar a placa em:
-"ferramentas" -> "placas" -> "Esp32 arduino" -> " "Heltec Wifi LoRa 32 (V2)".
+"ferramentas" -> "placas" -> "Esp32 arduino" -> "Heltec Wifi LoRa 32 (V2)".
