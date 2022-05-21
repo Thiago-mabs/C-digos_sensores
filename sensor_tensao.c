@@ -1,8 +1,8 @@
-const int SensorTensaoPin=A1; //Declarando a porta que o sensor está localizado
+const int SensorTensaoPin = A1; //Declarando a porta que o sensor está localizado
 float TensaoSaida;
 float ValorTensao;
-int R1 = 30000;
-int R2 = 7500;
+float R1 = 30000;
+float R2 = 7500;
 void setup(){
     Serial.begin(9600);
 }
