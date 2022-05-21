@@ -9,7 +9,7 @@ void loop(){
     Tensao = Tensao - 2.5 + 0.007;/* Normalização para o sensor. 
     Desccontando 2.5, pois será quando o sensor marcar 0 e adicionando 0.007, já que a durante o processo
     ocorre a queda desse valor*/  
-    ValorCorrente = Tensao/0.04;// Variação de 40 mV por A
+    ValorCorrente = Tensao/0.185;// Variação de 40 mV por A
     Serial.print(ValorCorrente);
     Serial.print("A");
     delay(1000);
